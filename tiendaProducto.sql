@@ -1,5 +1,4 @@
--- falta la linea de relacion entre bodega y tienda
--- falta la linea de relacion entre cliente con departamento y cliente con usuario
+
 DROP DATABASE IF EXISTS tiendaProducto;
 CREATE DATABASE IF NOT EXISTS tiendaProducto;
 USE tiendaProducto;
@@ -142,7 +141,3 @@ CREATE TABLE Ventas (
     FOREIGN KEY (id_Producto) REFERENCES Producto(id_Producto)
 );
 
-
-
-
--- FOREIGN KEY (id_depto) REFERENCES departamento(id_depto)
